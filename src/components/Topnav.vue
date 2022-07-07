@@ -19,7 +19,7 @@ import { ref, reactive, onMounted } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 const router = useRouter()
 // const route = useRoute()
-const a = ref(0)
+const a = ref(null)
 const state = reactive({
     navIndex: 0,  // 导航索引
     navList: [
